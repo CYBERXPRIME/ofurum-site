@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="off.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="website.css">
+    <title>Offurum Website</title>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo">OFURUM</h1>
+                <ul id="sidemenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars"onclick="openmenu()" ></i>
+            </nav>
+            <div class="header-text">
+                <p>Geographer</p>
+                <h1>Hi,I am <span>Ofurum</span> <br><span>Daniel</span>   from Anambra</h1>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/IMG_20220904_092423.jpg" alt="" height="500px" width="350px">
+                </div>
+                <div class="about-col-2">
+                   <h1 class="sub-title">About Me</h1> 
+                   <p>I am a simple guy who loves writing code and want to work at a
+                    company where my work is appreciated and valued.I also want
+                    to use my codes to impact on lives.I am good in web development ,
+                    team building ,problem solving ,video
+                    creation, advertising and lots more
+                    but to be specific I am better at web
+                    development more than all these
+                </p>
+                   
+                   <div class="tab-titles">
+                     <!--a href="#skills"></a-->  <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                     <!--a href="#Experiences"></a-->  <p class="tab-links" onclick="opentab('Experiences')">Experiences</p>
+                     <!--a href="#Education"></a-->  <p class="tab-links" onclick="opentab('Education')">Education</p>
+                   </div>
+                   <div class="tab-contents active-tab" id="Skills">
+                       <ul>
+                           <li><span>UI/UX</span><br> Development Web/App interfaces</li>
+                           <li><span>Web Development</span><br>Web app Development</li>
+                           <li><span>App Development</span><br>Buiding Android/iOS apps</li>
+                       </ul>
+                   </div>
+                   <div class="tab-contents" id="Experiences">
+                    <ul>
+                        <li><span>2021 - Current</span><br>UI/UX Design Training at ET Institute.</li>
+                        <li><span>2019 - 2021</span><br>Team lead at StarApp LLC.</li>
+                        <li><span>2017 - 2019</span><br>UL/UX Design Execution at Coin Digital Ltd.</li>
+                        <li><span>2016 - 2017</span><br>Internship at ekart eCommerce.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education" >
+                    <ul>
+                        <li><span>2016</span><br>UI/UX Design Training at ET Institute.</li>
+                        <li><span>2016</span><br>MBA from MIT Bangalore.</li>
+                        <li><span>2014</span><br>BBA from ISM Bangalore</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<!--services------------>
+   <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services </h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fas fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>I am able and willingly to create responsive webites and user interactive ones tooo</p>
+                        <br><a href="wix.com">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fab fa-app-store"></i>
+                        <h2>App Design</h2>
+                        <p>I am able to create an application for both andriod and also ios</p>
+                        <br><a href="wix.com">Learn more</a>
+                    </div>
+                    <div>
+                         <i class="fas fa-crop-alt"></i>
+                        <h2>UI/Ux Design</h2>
+                        <p>I can create nice ui/ux designs which are really posible to bring to life and are user interactive</p>
+                        <br><a href="wix.com">Learn more</a>
+                    </div>
+                </div>
+        </div>
+   </div>
+   <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/pexels-martha-sales-1590882.jpg" alt="" width="300px">
+                    <div class="layer">
+                        <h3>Chat App</h3>
+                        <p>the app lets you connect with anybody around the world</p>
+                        <a href="goggle.com"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/pexels-pixabay-462030.jpg" alt="" width="300px" height="400px">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>the app lets you connect with anybody around the world</p>
+                        <a href=""><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                    <div class="work">
+                        <img src="images/pexels-oliver-sjöström-1078983.jpg" alt="" width="300px">
+                        <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>the app lets you connect with anybody around the world</p>
+                        <a href=""><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <a href="" class="btn">See More</a>
+        </div>
+   </div>
+
+<!---contact s------------>
+   <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> umeadotah@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> 09024082462</p>
+                    <div class="social-icons">
+                        <a href="facebook.com"><i class="fab fa-facebook"></i></a>
+                        <a href="instagram.com"><i class="fab fa-instagram"></i></a>
+                        <a href="linkedin.com"><i class="fab fa-linkedin"></i></a>
+                        <a href="twitter.com"><i class="fab fa-twitter-square"></i></a>
+                    </div>
+                    <a href="" class="btn btn2" download>Chat Me</a>
+                </div>
+                <div class="contact-right">
+                    <form class="contact-form" action="#" name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" placeholder="Message Me"  rows="6"></textarea>
+                        <button type="submit" class="btn btn2">Submit </button>
+                    </form>
+                    <span id="messg"></span>
+                </div>
+            </div>
+
+        </div>
+   </div>            
+   <div class="copyright">
+        <p>Copyright <i class="fas fa-copyright"> Daniel</i></p>
+    </div>
+    <script>
+        const scriptURL = ' https://script.google.com/macros/s/AKfycbzbVV6tE4g72VITrbsJuZgNMBLacvK4suPRw8FHr_GThpraEN4UMNEpzpEQn_00ViAf/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const messg = document.getElementById("messg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                messg.innerHTML = "Messsage Sent Successfully!"
+                setTimeout(function(){
+                    messg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+    
+            .catch(error => {
+                messg.innerHTML = "ERROR!!! please check your connections"
+                setTimeout(function(){
+                    messg.innerHTML = ""
+                },5000)
+            })
+        })
+      </script>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+    
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    
+    </script>
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+    
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    
+    </script>
+    
+</body>
+</html> 
